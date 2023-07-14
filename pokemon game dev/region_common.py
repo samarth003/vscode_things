@@ -1,7 +1,7 @@
 class region:
     iteration = 0
     pokemon_chosen = "FAILURE"
-    def __init__(self, fname, lname, township):
+    def __init__(self, fname="Misty", lname="Lee", township="Verulean City"):
         self.fname = fname
         self.lname = lname
         self.township = township
